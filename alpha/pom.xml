@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>drawingpad</groupId>
-  <artifactId>alpha</artifactId>
+  <artifactId>drawingpad</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>alpha</name>
+  <name>drawingpad</name>
   <url>http://maven.apache.org</url>
 
   <properties>
