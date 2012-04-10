@@ -30,7 +30,10 @@ public class DrawingPad extends JFrame
 	        UIManager.setLookAndFeel(
 	            UIManager.getSystemLookAndFeelClassName());
 	    } 
-	    catch (UnsupportedLookAndFeelException | ClassNotFoundException | InstantiationException | IllegalAccessException e){}
+	    catch (UnsupportedLookAndFeelException e){}
+		catch (ClassNotFoundException e){}
+		catch (InstantiationException e){}
+		catch (IllegalAccessException e){}
 	    
 		TopMenu tm;
 		tm = new TopMenu(this);
